@@ -40,7 +40,9 @@ export class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1>CONTACTS LIST</h1>
+        <div className="title-container">
+          <h1>CONTACTS LIST</h1>
+        </div>
         {this.state.contacts.length ? (
           <ContactList
             state={this.state.contacts}
