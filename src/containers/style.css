@@ -1,6 +1,7 @@
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: rgb(14, 69, 36);
+  margin-top: 20px;
 }
 
 .container {
@@ -10,10 +11,12 @@ h1 {
   max-width: 800px;
   gap: 10px;
   margin: auto;
+  position: relative;
 }
 
 .hidden-btn {
   min-width: 150px;
   min-height: 40px;
   background-color: #73e4de;
+  margin-left: 600px;
 }

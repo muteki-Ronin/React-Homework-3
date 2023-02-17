@@ -1,4 +1,6 @@
 h2 {
   color: rgb(224, 38, 38);
   font-size: 2rem;
+  min-height: 200px;
+  padding-top: 50px;
 }
